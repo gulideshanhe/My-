@@ -30,6 +30,8 @@ def cot(who):
 					print("*"*5, f"{commend[0]}加{commend[2:]}")
 					# if com[1]:
 					# 	ret(com[1]).subtract(int(commend[2:]))
+				case out:
+					print("*"*5, "输入有误，请重新输入")
 		except ValueError:
 			print("输入有误，请重新输入")
 
@@ -52,6 +54,8 @@ def ret(number):
 			three.settlement()
 			four.settlement()
 			five.settlement()
+		case out:
+			print("*"*5, "输入有误，请重新输入")
 
 
 begin = int(input("输入初始金额："))
